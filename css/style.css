@@ -1,0 +1,74 @@
+*{box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: black;
+} 
+.topo{
+    display: flex ;   
+    flex-flow: row wrap;           
+    height: 100px;                 
+    background:white ;            
+    justify-content: center;        
+    align-items: center;            
+    position:relative;               
+    width: 100%;
+    background-color:black;
+}
+.divisoria{      
+    flex:35%;                       
+    text-align: center;
+}
+.divisoria h1{    
+    margin: left 10%;            
+    color:white;              
+    font-size:25px;                
+    margin-left:0;
+    text-align: center;
+    margin: right 5%;
+}
+.menu{
+    flex:65%;
+    text-align:right;             
+    padding:20px;  
+    display: inline; 
+    margin: right 5%;               
+       
+}
+.menu a{
+    color: white;     
+    text-decoration: none;     
+    font-size:20px;               
+    padding:20px 16px;           
+}
+.menu a:hover{   
+    color: gray;               
+    border-top:4px solid; 
+}    
+#buscar{
+    color: white;
+}    
+#fonte{
+    color: black;
+    
+}
+.navbar{
+    border-bottom:5px solid;
+    color: black;
+    margin-bottom: 20px;
+}
+.navbar ul li a{
+    color: black; 
+}
+.cart{
+    border-bottom:5px solid;
+    color: black;
+    margin-top: 3%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.linha-preta{
+    border-bottom:5px solid;
+    color: black;
+}
